@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/HeaderImg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cover"
+        app:layout_constraintBottom_toTopOf="@+id/descText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_top_rounded"
+        android:fontFamily="@font/sf_pro_text_bold"
+        android:gravity="center"
+        android:text="ACM Student Chapter TIET"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/HeaderImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/descText"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:fontFamily="@font/sf_pro_text_medium"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="A Student Chapter of the world's Biggest computing society! We Aim to develop Technical Culture and to help students succeed.\n \nMEET THE TEAM \nGeneral Secretary -Amit Goyal \nStudent President -Varun Single \nGeneral Secretary -Mayank Gupta \nJoint Secretary - Yashvi Garg,Vasu\nFinance Secretary-Abhinay Srivastava \n PR Lead - Rishita Verma  "
+        android:textColor="#97000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
