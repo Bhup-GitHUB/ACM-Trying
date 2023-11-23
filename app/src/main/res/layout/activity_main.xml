@@ -41,7 +41,7 @@
         android:gravity="center_vertical"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-        android:text="A Student Chapter of the world's Biggest computing society! We Aim to develop Technical Culture and to help students succeed.\n \nMeet the team : \nGeneral Secretary -Amit Goyal \nStudent President -Varun Single \nGeneral Secretary -Mayank Gupta \nJoint Secretary - Yashvi Garg,Vasu\nFinance Secretary-Abhinay Srivastava \n PR Lead - Rishita Verma  "
+        android:text="A Student Chapter of the world's Biggest computing society! We Aim to develop Technical Culture and to help students succeed.\n \nMeet the team : \nGeneral Secretary -Amit Goyal \nStudent President -Varun Single \nGeneral Secretary -Mayank Gupta \nJoint Secretary - Yashvi Garg,Vasu\nFinance Secretary-Abhinay Srivastava \n PR Lead - Rishita Verma\nJoint Secretary-Mohak Sharma,Ishank Gupta\nSocial Media Lead-Prisha Chadha\nDevelopment Lead-Ayush Kumar Singh  "
         android:textColor="#97000000"
         android:textStyle="bold"
         android:textSize="15sp"
